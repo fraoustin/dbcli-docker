@@ -16,7 +16,7 @@ docker run --rm -it dbcliorg/mssql-cli -S <server URL> -d <database name> -U <us
 If you want to use a specific config
 
 ```
-docker run --rm -it -v YourDirectoryConfig:/root/.config/pgcli dbcliorg/mssql-cli -S <server URL> -d <database name> -U <username> -P <password>
+docker run --rm -it -v YourDirectoryConfig:/root/.config/mssqlcli dbcliorg/mssql-cli -S <server URL> -d <database name> -U <username> -P <password>
 ```
 
 You can use alias
