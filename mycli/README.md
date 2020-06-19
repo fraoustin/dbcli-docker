@@ -6,7 +6,7 @@ notice of usage of mycli on https://www.mycli.net/
 
 # Usage
 
-If you have not a postgresql server you can run a server with docker
+If you have not a mysql server you can run a server with docker
 
 ```
 docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
