@@ -2,7 +2,7 @@
 
 You can use a docker image for load iredis.
 
-notice of usage of iredis on https://www.pgcli.com/
+notice of usage of iredis on https://github.com/laixintao/iredis
 
 # Usage
 
