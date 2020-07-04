@@ -3,7 +3,7 @@ RUN \
  apk add --no-cache --virtual .build-deps gcc musl-dev libffi libffi-dev openssl-dev python3-dev && \
  pip install poetry  && \
  pip install --no-build-isolation pendulum==2.1.0 && \
- pip install iredis==1.7.4 && \
+ pip install iredis==1.8.0 && \
  apk --purge del .build-deps
 RUN mkdir /out
 VOLUME [ "/out" ]
